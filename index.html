@@ -594,57 +594,53 @@
     <!-- LEFT INFO -->
     <div class="contact-info-container">
       <h2>Get In Touch</h2>
-      <p>Reach out to discuss high-performance digital solutions tailored for your business. Fill out the form and we’ll connect with you promptly.</p>
+      <p>
+        Reach out to discuss high-performance digital solutions tailored for your business.
+        Fill out the form and we’ll connect with you promptly.
+      </p>
+
       <div class="contact-details">
         <div class="contact-item">📞 <a href="tel:8106630124">8106630124</a></div>
         <div class="contact-item">✉️ <a href="mailto:ashok0432m@gmail.com">ashok0432m@gmail.com</a></div>
-        <!-- <div class="contact-item">🌐 <a href="https://vidyavedic.com/">vidyavedic.com</a></div> -->
       </div>
     </div>
 
     <!-- RIGHT FORM -->
-    <form id="contactForm" class="contact-form" novalidate>
+    <form class="contact-form" novalidate>
+
       <div class="form-row">
         <div class="form-group">
-          <input type="text" id="name" required>
+          <input type="text" id="name" placeholder=" " required>
           <label for="name">Full Name *</label>
-          <span class="error-msg" id="nameError"></span>
         </div>
 
         <div class="form-group">
-          <input type="email" id="email" required>
+          <input type="email" id="email" placeholder=" " required>
           <label for="email">Email *</label>
-          <span class="error-msg" id="emailError"></span>
         </div>
       </div>
 
       <div class="form-row">
         <div class="form-group">
-          <input type="text" id="phone" required>
+          <input type="text" id="phone" placeholder=" " required>
           <label for="phone">Phone Number *</label>
-          <span class="error-msg" id="phoneError"></span>
         </div>
 
         <div class="form-group">
           <select id="service" required>
-            <option value="">-- Select Service --</option>
+            <option value="" disabled selected hidden></option>
             <option value="web">Web Application Development</option>
             <option value="app">Mobile App Development</option>
             <option value="api">Secure API Development</option>
             <option value="other">Other</option>
           </select>
           <label for="service">Service *</label>
-          <span class="error-msg" id="serviceError"></span>
         </div>
       </div>
 
-      <div class="form-group" id="otherServiceGroup">
-        <textarea id="otherService" placeholder="Please specify your requirements"></textarea>
-        <span class="error-msg" id="otherError"></span>
-      </div>
-
       <div class="form-group">
-        <textarea id="message" placeholder="Your Message"></textarea>
+        <textarea id="message" placeholder=" "></textarea>
+        <label for="message">Message</label>
       </div>
 
       <button type="submit" class="submit-btn">Send Message</button>
@@ -674,11 +670,11 @@
     <div class="footer-column reveal-up delay-2">
       <h3>Quick Links</h3>
       <ul>
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <ul><a href="#hero">Home</a></ul>
+        <ul><a href="#about">About</a></ul>
+        <ul><a href="#services">Services</a></ul>
+        <ul><a href="#skills">Skills</a></ul>
+        <ul><a href="#contact">Contact</a></ul>
       </ul>
     </div>
 
